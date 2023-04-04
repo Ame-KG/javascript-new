@@ -1,0 +1,108 @@
+/* ELEMENTS */
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap:wrap ;
+	background-color: wheat;
+
+
+}
+
+header {
+	background-color: floralwhite;
+	border-radius: 5%;
+	padding: 1rem;
+	width: 100%;
+	text-align: center;
+
+}
+
+ul li {
+	padding: 5px;
+	background-color: floralwhite;
+	margin: 5px 0;
+}
+
+/*---------------------------------------------------------*/
+
+/* CLASSES */
+.container {
+	margin: auto;
+	overflow: auto;
+	border: solid;
+	border-color: floralwhite;
+	border-width: 2px;
+	padding: 3rem 2rem;
+	border-radius: 5%;
+	background-color: grey;
+}
+
+#myForm {
+	padding: 2rem;
+
+}
+
+#myForm label{
+	display: block;
+}
+
+#myForm input[type="text"] {
+	width: 100%;
+	padding: 8px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.msg {
+
+}
+
+.bg-dark{
+	background: black;
+	color: wheat;
+}
+
+.error {
+	background: orangered;
+	color: #fff;
+	padding: 5px;
+	margin: 5px;
+}
+
+.btn {
+	display: block;
+	color: floralwhite;
+	background-color: black;
+	text-align: center;
+	width: 100%;
+	border: 0;
+	border-radius: 5px;
+	margin: 5px 0;
+	padding: 10px 15px;
+	
+
+}
+
+/* HOVERS */
+.btn:hover {
+	cursor: pointer;
+	background-color: #111;
+	color: palegoldenrod;
+
+}
+
+/*_____________________________________________________________________*/
+/* ID's */
+#name {
+
+}
+
+
+#email{
+
+}
+
+/* HOVERS */
+
